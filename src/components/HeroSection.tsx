@@ -7,6 +7,17 @@ import { ArrowRight, Download, Sparkles, Code, Server, Layers, Rocket } from "lu
 export function HeroSection() {
   const { t } = useLanguage();
 
+  function scrollToSection(id: string) {
+  // Both layouts exist in DOM — find the visible one
+  const all = document.querySelectorAll<HTMLElement>(`#${id}`);
+  for (const el of all) {
+    if (el.offsetHeight > 0 || el.offsetWidth > 0) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+  }
+}
+
   const taglines = [
     { icon: Server, text: t.hero.tagline1 },
     { icon: Code, text: t.hero.tagline2 },
@@ -59,7 +70,7 @@ export function HeroSection() {
         <div className="flex flex-wrap gap-4 animate-fade-in-up stagger-5">
           {/* Contact button */}
           <a
-            href="#contact"
+            onClick={() => scrollToSection("contact")}
             className="inline-flex items-center gap-2 px-6 h-11 rounded-md bg-primary/90 hover:bg-primary text-white text-sm font-medium transition-all duration-200 hover:shadow-[0_0_20px_rgba(20,184,166,0.25)]"
           >
             {t.hero.contactMe}
