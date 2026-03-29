@@ -35,7 +35,7 @@ export default function Home() {
         <Sidebar />
         <div className="flex-1 ml-80 min-w-0">
           <Header />
-          <main className="px-10 pb-20">
+          <main className="px-10 pb-20 max-w-4xl">
             <HeroSection />
             <ExperienceSection />
             <EducationSection />

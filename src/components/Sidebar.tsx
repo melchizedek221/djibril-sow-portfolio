@@ -64,7 +64,7 @@ export function Sidebar() {
       {/* Social Links */}
       <div className="flex justify-center gap-3 mb-6">
         <a
-          href="https://github.com/djibrilsow"
+          href="https://github.com/melchizedek221"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-lg bg-muted/40 hover:bg-primary/10 hover:text-primary transition-all"
@@ -72,19 +72,19 @@ export function Sidebar() {
           <Github className="w-5 h-5" />
         </a>
         <a
-          href="https://linkedin.com/in/djibrilsow"
+          href="https://www.linkedin.com/in/djibril-sow-3463a4340/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-2 rounded-lg bg-muted/40 hover:bg-primary/10 hover:text-primary transition-all"
         >
           <Linkedin className="w-5 h-5" />
         </a>
-        <a
+        {/* <a
           href="#contact"
           className="p-2 rounded-lg bg-muted/40 hover:bg-primary/10 hover:text-primary transition-all"
         >
           <ExternalLink className="w-5 h-5" />
-        </a>
+        </a> */}
       </div>
 
       <Separator className="mb-6" />

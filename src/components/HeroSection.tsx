@@ -41,7 +41,7 @@ export function HeroSection() {
         </div>
 
         {/* Main Title */}
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-6 leading-tight animate-fade-in-up stagger-2">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold mb-6 leading-tight animate-fade-in-up stagger-2">
           <span className="gradient-text">{t.hero.titleHighlight}</span>
           <br />
           <span className="text-foreground">{t.hero.titleRest}</span>
@@ -71,7 +71,7 @@ export function HeroSection() {
           {/* Contact button */}
           <a
             onClick={() => scrollToSection("contact")}
-            className="inline-flex items-center gap-2 px-6 h-11 rounded-md bg-primary/90 hover:bg-primary text-white text-sm font-medium transition-all duration-200 hover:shadow-[0_0_20px_rgba(20,184,166,0.25)]"
+            className="inline-flex items-center gap-2 px-6 h-11 rounded-md bg-primary/90 hover:bg-primary text-white text-sm font-medium transition-all duration-200 hover:shadow-[0_0_20px_rgba(20,184,166,0.25)] cursor-pointer"
           >
             {t.hero.contactMe}
             <ArrowRight className="w-4 h-4" />

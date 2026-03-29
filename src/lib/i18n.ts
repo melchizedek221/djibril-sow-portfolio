@@ -37,10 +37,10 @@ export const translations = {
     // Hero
     hero: {
       badge: "Développeur Full Stack • Disponible",
-      title: "Solutions web complètes du backend au frontend.",
-      titleHighlight: "Applications robustes,",
-      titleRest: "du backend au frontend.",
-      description: "Je conçois et développe des applications web performantes avec Java, Spring Boot, React et Angular. De la conception à la mise en production, je livre des solutions robustes et scalables.",
+      title: "Je construis des applications qui tiennent la route.",
+      titleHighlight: "Code solide.",
+      titleRest: "Résultats concrets.",
+      description: "Full stack passionné — je transforme des idées en applications web performantes avec Java, Spring Boot, React et Angular. Du premier commit à la mise en prod, je livre du code qui dure.",
       tagline1: "Java / Spring Boot",
       tagline2: "React & Angular",
       tagline3: "APIs RESTful",
@@ -219,10 +219,10 @@ export const translations = {
     // Hero
     hero: {
       badge: "Full Stack Developer • Available",
-      title: "Complete web solutions from backend to frontend.",
-      titleHighlight: "Robust applications,",
-      titleRest: "from backend to frontend.",
-      description: "I design and develop high-performance web applications with Java, Spring Boot, React, and Angular. From conception to production, I deliver robust and scalable solutions.",
+      title: "I build applications that hold up.",
+      titleHighlight: "Solid code.",
+      titleRest: "Real results.",
+      description: "Passionate full stack developer — I turn ideas into high-performance web applications using Java, Spring Boot, React, and Angular. From the first commit to production, I ship code that lasts.",
       tagline1: "Java / Spring Boot",
       tagline2: "React & Angular",
       tagline3: "RESTful APIs",

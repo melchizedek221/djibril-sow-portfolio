@@ -72,7 +72,7 @@ export function ContactSection() {
         <ScrollReveal delay={160}>
           <div className="flex gap-3">
             <a
-              href="https://github.com/djibrilsow"
+              href="https://github.com/melchizedek221"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border bg-card hover:border-primary/40 hover:text-primary transition-all text-sm text-muted-foreground"
@@ -81,7 +81,7 @@ export function ContactSection() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/djibrilsow"
+              href="https://www.linkedin.com/in/djibril-sow-3463a4340/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2.5 rounded-lg border border-border bg-card hover:border-primary/40 hover:text-primary transition-all text-sm text-muted-foreground"
